@@ -6,6 +6,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finance</title>
   </head>
-  <body>
+  <body class="bg-dark">
+    <div class="container mx-auto px-4">
+      <!-- 上半部 -->
+      <header class="flex justify-between items-center h-[60px] mt-4">
+        <h1 class="text-white font-extrabold text-xl font-mono">
+          FINANCE PLATFORM
+        </h1>
+        <ul class="text-white justify-between lg:flex items-center hidden">
+          <li class="mr-6 font-bold cursor-pointer text-sm">HOME</li>
+          <li class="mr-6 font-bold cursor-pointer text-sm">TRADE</li>
+          <li class="mr-6 font-bold cursor-pointer text-sm">ACCOUNT</li>
+          <li>
+            <div
+              class="bg-gray-400 rounded-full flex justify-center items-center w-[40px] h-[40px]"
+            >
+              B
+            </div>
+          </li>
+        </ul>
+      </header>
+      <!-- 下半部 -->
+      <div class="flex flex-wrap lg:flex-nowrap">
+        <!-- Left Part -->
+        <div class="w-full lg:w-[75%]">
+          <div class="w-full flex mt-4 overflow-x-scroll">
+            <!-- item -->
+            <div
+              class="box-border w-[200px] h-[100px] bg-pink-100 rounded-md shadow-2xl flex flex-col flex-none mr-4 p-4 justify-between"
+            >
+              <p class="text-black text-2xl font-bold">GOOGL</p>
+              <p class="flex justify-between">
+                <span class="text-gray">171.7</span>
+                <span class="text-green-500">+50%</span>
+              </p>
+            </div>
+            <!-- item -->
+            <div
+              class="box-border w-[200px] h-[100px] bg-pink-100 rounded-md shadow-2xl flex flex-col flex-none mr-4 p-4 justify-between"
+            >
+              <p class="text-black text-2xl font-bold">GOOGL</p>
+              <p class="flex justify-between">
+                <span class="text-gray">171.7</span>
+                <span class="text-green-500">+50%</span>
+              </p>
+            </div>
+            <!-- item -->
+            <div
+              class="box-border w-[200px] h-[100px] bg-pink-100 rounded-md shadow-2xl flex flex-col flex-none mr-4 p-4 justify-between"
+            >
+              <p class="text-black text-2xl font-bold">GOOGL</p>
+              <p class="flex justify-between">
+                <span class="text-gray">171.7</span>
+                <span class="text-green-500">+50%</span>
+              </p>
+            </div>
+            <!-- item -->
+            <div
+              class="box-border w-[200px] h-[100px] bg-pink-100 rounded-md shadow-2xl flex flex-col flex-none mr-4 p-4 justify-between"
+            >
+              <p class="text-black text-2xl font-bold">GOOGL</p>
+              <p class="flex justify-between">
+                <span class="text-gray">171.7</span>
+                <span class="text-green-500">+50%</span>
+              </p>
+            </div>
+            <!-- item -->
+            <div
+              class="box-border w-[200px] h-[100px] bg-pink-100 rounded-md shadow-2xl flex flex-col flex-none mr-4 p-4 justify-between"
+            >
+              <p class="text-black text-2xl font-bold">GOOGL</p>
+              <p class="flex justify-between">
+                <span class="text-gray">171.7</span>
+                <span class="text-green-500">+50%</span>
+              </p>
+            </div>
+          </div>
+          <!-- 股票圖表 -->
+          <div class="bg-card mt-4 p-4 rounded-md h-[500px] shadow-2xl w-full">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+              <div id="tradingview_838bc"></div>
+              <div class="tradingview-widget-copyright">
+                <a
+                  href="https://tw.tradingview.com/symbols/AAPL/"
+                  rel="noopener"
+                  target="_blank"
+                  >由TradingView提供</a
+                >
+              </div> 
+            </div>
+            <!-- TradingView Widget END -->
+          </div>
+          <!-- 交易歷史紀錄 -->
+          <div
+            class="bg-card mt-4 rounded-md p-4 shadow-2xl"
+          >
+            <table class="table-fixed text-white w-full">
+              <thead>
+                <tr>
+                  <th>Stock</th>
+                  <th>Price</th>
+                  <th>Operation</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody class="text-sm">
+                <tr class="h-[40px]">
+                  <td class="w-1/4 text-center">AAPL</td>
+                  <td class="w-1/4 text-center">190</td>
+                  <td class="w-1/4 text-center text-green-500">BUY</td>
+                  <td class="w-1/4 text-center">2021/12/31 00:00:00</td>
+                </tr>
+                <tr class="h-[40px]">
+                  <td class="w-1/4 text-center">AAPL</td>
+                  <td class="w-1/4 text-center">190</td>
+                  <td class="w-1/4 text-center text-red-500">SELL</td>
+                  <td class="w-1/4 text-center">2021/12/31 00:00:00</td>
+                </tr>
+                <tr class="h-[40px]">
+                  <td class="w-1/4 text-center">AAPL</td>
+                  <td class="w-1/4 text-center">190</td>
+                  <td class="w-1/4 text-center text-green-500">BUY</td>
+                  <td class="w-1/4 text-center">2021/12/31 00:00:00</td>
+                </tr>
+                <tr class="h-[40px]">
+                  <td class="w-1/4 text-center">AAPL</td>
+                  <td class="w-1/4 text-center">190</td>
+                  <td class="w-1/4 text-center text-green-500">BUY</td>
+                  <td class="w-1/4 text-center">2021/12/31 00:00:00</td>
+                </tr>
+                <tr class="h-[40px]">
+                  <td class="w-1/4 text-center">AAPL</td>
+                  <td class="w-1/4 text-center">190</td>
+                  <td class="w-1/4 text-center text-green-500">BUY</td>
+                  <td class="w-1/4 text-center">2021/12/31 00:00:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="w-full lg:w-[25%] lg:ml-4 mt-4">
+          <!-- 下單區 -->
+          <div class="w-full text-white rounded-md p-4 bg-card">
+            <div class="flex items-center">
+              <p class="text-2xl font-bold">AAPL</p>
+              <p class="text-green-500 ml-4">+50%</p>
+            </div>
+            <p>171.6</p>
+            <input type="text"
+                   class="w-full h-[50px] mt-4 bg-gray-700 border-transparent rounded-md "
+                   placeholder="Price"
+            />
+            <input type="text"
+                   class="w-full h-[50px] mt-4 bg-gray-700 border-transparent rounded-md "
+                   placeholder="Amount"
+            />
+            <div class="flex mt-4 justify-between">
+              <button class="w-[48%] h-[50px] rounde-md bg-green-500 flex justify-center items-center  rounded-md">BUY</button>
+              <button class="w-[48%] h-[50px] rounde-md bg-red-500 flex justify-center items-center  rounded-md">SELL</button>
+            </div>
+          </div>
+          <!-- 新聞區 -->
+          <div class="bg-card w-full rounded-md  mt-4 p-4">
+              <p class="text-white text-2xl font-bold mb-4">NEWS</p>
+              <div class="py-2">
+                <p class="text-gray-300 font-bold">APPLE COMPANY</p>
+                <p class="text-gray-500 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maiores placeat suscipit sequi. Nobis, voluptatibus.</p>  
+              </div>
+              <div class="py-2">
+                <p class="text-gray-300 font-bold">GOOGL COMPANY</p>
+                <p class="text-gray-500 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maiores placeat suscipit sequi. Nobis, voluptatibus.</p>  
+              </div>
+              <div class="py-2">
+                <p class="text-gray-300 font-bold">Microsof COMPANY</p>
+                <p class="text-gray-500 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maiores placeat suscipit sequi. Nobis, voluptatibus.</p>  
+              </div>
+              
+              <button class="w-full mt-8 text-white text-sm bg-gray-700 h-[50px]">More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+    type="text/javascript"
+    src="https://s3.tradingview.com/tv.js"
+  ></script>
   </body>
 </html>
